@@ -1,0 +1,207 @@
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: local('Raleway Light'), local('Raleway-Light'), url(https://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIYqWqZPANqczVs.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Raleway'), local('Raleway-Regular'), url(https://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0IT4ttDfA.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+  
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: local('Raleway Medium'), local('Raleway-Medium'), url(https://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwN4rWqZPANqczVs.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: local('Raleway SemiBold'), local('Raleway-SemiBold'), url(https://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwPIsWqZPANqczVs.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local('Raleway Bold'), local('Raleway-Bold'), url(https://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPANqczVs.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* BODY */
+html {
+    display: flex;
+    background: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm28-leaf-kung-136_2.jpg?auto=format&bg=transparent&con=3&cs=srgb&dpr=1&fm=jpg&ixlib=php-3.1.0&mark=rawpixel-watermark.png&markalpha=90&markpad=13&markscale=10&markx=25&q=75&usm=15&vib=3&w=2048&s=27a82759a6abc80ef1b86d1d4d12f253");
+    justify-content: center;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    line-height: 0.6rem;
+}
+
+h1, h3 {
+    color: #d96459;
+}
+
+h3 {
+    background: rgba(242, 227, 148, 0.85);
+    letter-spacing: 0.6rem;
+    padding: 0.5rem;
+    margin: 0.5rem 0 1rem 0;
+    width: 36rem;
+}
+
+h4 {
+    color: #fff;
+    font-weight: 550;
+    letter-spacing: 0.1rem;
+    margin: 0.8rem;
+}
+
+#description {
+    color: #fff;
+    font-weight: 500;
+}
+
+#survey {
+    display: block;
+    background:rgba(242, 227, 148, 0.81);
+    max-width: 36.7rem;
+    margin: 1.3rem;
+    padding: 1rem 0 1rem 0;
+    border: 0.3rem solid #f2e394;
+    border-radius: 1.3rem;
+}
+
+
+/*USER INFORMATION*/
+input[type= "text"], input[type= "email"]{
+    border-radius: 0.6rem;
+    border: 0.2rem solid #f2e394;
+    background: rgba(242, 227, 148, 0.4);
+    padding: 0.5rem;
+    margin: 0.05rem;
+    font-family: inherit;
+    font-size: 0.85rem;
+    max-height: 5rem;
+    min-height: 1rem;
+}
+
+input[name= "name"] {
+    max-width: 10rem;
+    min-width: 5rem;
+}
+
+input[id="email"] {
+    width: 19.7rem;
+    margin-bottom:  0.45rem;
+}
+
+#text-input { 
+    display: inline-block;
+    margin: 0 0 0.5rem 0;
+    text-align: left;
+}
+
+#text-label {
+    font-weight: 500;
+}
+
+/* DROPDOWN & NUMBER COUNTER */
+input[type= "number"] + label {
+    text-align: left;
+}
+
+select {
+    margin-top: 1rem;
+}
+
+#drop-num {
+    display: inline-block;
+    line-height: 0.7rem;
+    text-align: center; 
+    margin: 0 2rem 0.5rem 2rem;   
+}
+
+/* RADIO */
+input[type= "radio"] + label {
+    justify-content: center;
+}
+
+input[type="radio"]:checked + label{
+    letter-spacing: 0.06rem;
+    font-weight: 500;
+}
+
+input[type="radio"]:hover + label{
+    letter-spacing: 0.06rem;
+}
+
+#radio-input {
+    line-height: 1.5rem;
+}
+
+/* CHECKBOXES */
+input[type= "checkbox"] + label {
+    text-align: left;
+}
+
+input[type="checkbox"]:checked + label{
+    letter-spacing: 0.02rem;
+    font-weight: 500;
+}
+
+input[type="checkbox"]:hover + label{
+    letter-spacing: 0.02rem;
+}
+
+#checkbox-input {
+    display: inline-block;
+    width: 34rem;
+    line-height: 1.5rem;
+    margin: 0 2rem 0.5rem 2rem;
+}
+
+#check-label { 
+    display: inline-block;
+    width: 31rem;
+}
+
+/* TEXTAREA */
+textarea {
+    max-height: 25rem;
+    max-width: 35rem;
+    min-height: 5rem;
+    min-width: 20rem;
+    border-radius: 0.6rem;
+    border: 0.2rem solid #f2e394;
+    background: rgba(242, 227, 148, 0.4);
+    padding: 0.5rem;
+    margin: 0 1rem 0 1rem 0;
+    font-family: inherit;
+    font-size: 0.85rem;
+}
+
+/* BUTTON */
+#button {
+
+}
+
+#button:hover {
+
+}

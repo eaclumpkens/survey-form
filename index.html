@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html class="no-js"> 
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Intro Survey</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+  
+    <body>
+        
+        <div id="heading">
+            <h1 id= "title">little a information, as a treat</h1>
+            <p id= "description">share a bit about yourself</p>
+        </div>
+        
+        <div id= "survey">
+            <form id= "survey-form">
+                
+                <!--USER INFORMATION-->
+                <h3>the basics</h3>
+                <div id= "text-input">
+                    <label for= "name" id= "text-label">name</label>
+                    <input id= "fname" type= "text" name= "name" placeholder= "first name" required>
+                    <input id= "lname" type= "text" name= "name" placeholder= "last name">
+                    <br><br>
+                    <label for= "email" id= "text-label">email</label>
+                    <input id= "email" type= "email" name= "email" placeholder= "email" pattern= "/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" required>
+                </div>
+                <br>
+                <h3>the fun stuff</h3>
+
+                <!--NUMBER COUNTER-->
+                <div id= "drop-num">   
+                    <div id= "number-input">
+                        <label for= "pet-count" id= "number-label">how many pets do you have?</label>
+                        <input id= "pet-count" type= "number" step= "1" min= "0" max= "20" placeholder= "0" pattern= "[0-20]+"">
+                    </div> 
+                    <br>   
+
+                    <!--DROPDOWN-->
+                    <div id= "drop-input">
+                        <label for= "dropdown" id= "drop-label">if a spider wore pants, how would they wear them?</label>
+                        <select id= "dropdown">
+                            <option value="placeholder-input" disabled selected>select an answer</option>
+                            <option value= "four-input">over their back four legs</option>
+                            <option value= "eight-input">over all eight legs</option>
+                            <option value= "dress-input">perhaps just try a dress</option>
+                            <option value= "no-input">no</option>
+                        </select>
+                    </div>
+                </div>
+                <br>
+                
+                <!--RADIO-->
+                <h4>when given the option</h4>
+                <div id= "radio-input">
+                    <input id= "radio1" type= "radio" name= "radio">
+                    <label for= "radio1" id= "radio-label">army of 1000 squirrels</label>
+                    <br>
+                    <input id= "radio2" type= "radio" name= "radio">
+                    <label for= "radio2" id= "radio-label">one humungous aardvark</label>
+                <br>
+
+                <!--CHECKBOXES-->
+                <h4>select what applies to you</h4>
+                <div id= "checkbox-input">
+                        <input id= "option1" type= "checkbox" name= "option1">
+                        <label for= "option1" id= "check-label">i trust most old people</label>
+                        <br>
+                        <input id= "option2" type= "checkbox" name= "option2">
+                        <label for= "option2" id= "check-label">i would engage if a talking rodent presented themself to me</label>
+                        <br>
+                        <input id= "option3" type= "checkbox" name= "option3">
+                        <label for= "option3" id= "check-label">oscar-winning films are overrated</label>
+                        <br>
+                        <input id= "option4" type= "checkbox" name= "option4">
+                        <label for= "option4" id= "check-label">oscar issac is perfectly rated</label>
+                        <br>
+                        <input id= "option5" type= "checkbox" name= "option5">
+                        <label for= "option5" id= "check-label">boardgames can potentially destroy a family</label>
+                        <br>
+                        <input id= "option6" type= "checkbox" name= "option6">
+                        <label for= "option6" id= "check-label">i probably wouldn't look good in a bonnet (US or UK)</label>
+                        <br>
+                        <input id= "option7" type= "checkbox" name= "option7">
+                        <label for= "option7" id= "check-label"><b>pidgeons</b> don't get them</label>
+                </div>
+                <br>
+
+                <!--TEXTAREA-->
+                <h3>finally</h3>
+                <div id= "text-area">   
+                    <label for= "">write a short poem about the last purchase you made</label>
+                    <br>
+                    <br>
+                    <textarea id= "" minlength= "0" maxlength="250" placeholder="click to type"></textarea>
+                </div>
+                <br>
+
+                <!--SUBMIT BUTTON-->
+                <div id= "button">
+                    <input id= "submit-button" type= "submit">
+                </div>
+            </form>
+        </div>
+
+        <script src="" async defer></script>
+    </body>
+    <footer>
+
+    </footer>
+</html>
